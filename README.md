@@ -18,5 +18,5 @@ This metadata has 2 CSV files where one dataset contains fake news and the other
 ## One-hot encoding for Embedding layers with Padding
 * We have to first set the vocabulary size to give a precedence for encoding the embedding layers. What one-hot encoding does, is it gives the words in the sentences an index value from the vocabulary size. Then those index values will be represented in the form of vectors in the embedding layers.
 * To ensure that all the sentences provided to our LSTM model are of the same size,we consider a sentence length of 5000 and perform 'pre'padding. This inserts 'zeros' before the sentence so that the total length of the sentence reaches 5000.
-## Creation andfitting of LSTM model
+## Creation and fitting of LSTM model
 * An LSTM model with 100 neurons, a dropout rate of 30 % and a dense layer with sigmoid as the activation function was built and trained on the data for 10 epochs.•	The accuracy of the prediction was calculated at 96% while the prescision value obtained from the 	confusion matrix was 98%.
